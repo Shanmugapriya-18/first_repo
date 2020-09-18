@@ -76,12 +76,13 @@ p {
 }
 
 
-/* .page-header>div { position: relative; } */
+ .page-header>div { position: relative; } 
 
 .page-header .identity {
     font-family: "Pacifico", cursive;
     font-size: 3.5em;
-    /* position: absolute; */
+    /*margin-top: 20px;*/
+     position: absolute; 
     bottom: 0;
 }
 
@@ -149,6 +150,7 @@ p {
 
 .portfolio {
     /* position: relative; */
+    
     background-color: #f4f4f4;
 }
 
@@ -175,6 +177,21 @@ p {
 }
 
 
+.work{
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.work:last-child{
+    margin-right: 0;
+}
+
+.work figure{
+    margin-bottom: 1em;
+}
+
+
 /*================= footer ===============*/
 
 .page-footer:before {
@@ -187,7 +204,7 @@ p {
 .page-footer {
     /* background-color: #f4f4f4; */
     color: #9b9b9b;
-    background-color: red;
+    background-color: #f4f4f4;
     position: absolute;
     width: 100%;
     /* font-size: 1rem; */
